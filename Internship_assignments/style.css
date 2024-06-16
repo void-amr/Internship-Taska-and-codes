@@ -1,0 +1,92 @@
+/* 
+    @ Task_given_on -> 14/6/24 
+    @ Author -> AryanRanjane(ranjanearyan14@gmail.com)
+    @ Date -> 16/6/24 
+*/
+
+/* 
+    Boiler-plate 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+    Background-color - main is the parent
+*/
+
+.main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(32deg, rgb(101, 66, 21) 60%, rgb(255, 145, 0));
+}
+
+.main:hover {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(112deg, rgb(114, 5, 116) 60%, rgb(255, 0, 68));
+}
+
+/*
+    Header h1 designing 
+*/
+
+h1 {
+  padding: 1em;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  opacity: 1;
+  text-align: center;
+}
+
+/* 
+    article-parent
+*/
+
+article {
+  margin: 5em;
+  background-color: black;
+  width: 440px;
+  height: 200px;
+  text-align: center;
+  border-radius: 1em;
+}
+
+article:hover {
+  background-color: #ffff;
+}
+
+ul {
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4em;
+  padding: 1em;
+  list-style: none;
+  color: white;
+}
+
+ul:hover {
+  color: black;
+}
+/* 
+    Todays-headline
+*/
+
+#headline {
+  padding: 0.6em;
+  color: white;
+}
+
+#headline:hover {
+  color: black;
+}

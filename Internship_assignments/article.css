@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    margin-top: 100px;
+    width: 500px;
+    background-color: black;
+}
+
+aside {
+    padding: 50px;
+    background-color:aquamarine;
+    margin-left: 50px; 
+    float:right;
+}
+
+#p1 {
+    color: white;
+    padding: 2em;
+    font-size: 1.6em;    
+}
