@@ -1,0 +1,44 @@
+ Topics covererd in this sessios are 
+ 
+ Fundamentals
+
+	// data-types 
+	// declaration 
+	// initialization
+	// strings
+	// string interpolation 
+	// undefined vs not-defined 
+	let var const
+	arrays
+	push pop unshift shift 
+	conditionals
+	loops
+	classes 
+	Objects
+	functions 
+	callbackfunctions
+	arrowfunctions
+	this 
+	Window object 
+	hoisting
+ 
+ 	Advanced 
+
+	modules
+	Storages
+	Async 
+	Promises 
+	Mutators
+	Enums 
+	constructors 
+	Events 
+	Dom
+	Erros 
+	Try and Catch 
+	Accessors 
+	Json 
+	Methods 
+	Regex
+	Rest parameters 
+
+
