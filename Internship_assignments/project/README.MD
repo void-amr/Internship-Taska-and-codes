@@ -1,5 +1,5 @@
 
-#This project contains only the web-designing part of the WebDev
+# This project contains only the web-designing part of the WebDev
 	  
 
 We have used html to form the structure of the website and we have used 
