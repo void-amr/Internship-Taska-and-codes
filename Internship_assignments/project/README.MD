@@ -15,15 +15,16 @@ the code repository structure is formed in such a way
 	 
 	 readme.md
 
-	 inspo -> https://www.vanessamckeown.com/
+	
+	
+	
+ https://www.vanessamckeown.com/
 	 
-	 this project has been entirely built using the reference of this website 
-     code is not copied but I've used this website to form a basic webdesign in the mind to get the desired output at the end.
+   this project has been entirely built using the reference of this website 
+   code is not copied but I've used this website to form a basic webdesign in the mind to get the desired output at the end.
 
-	 key topics used to implement this are 
-	 _____________________________________
-	 
-	 	 
+
+
 
 
 
