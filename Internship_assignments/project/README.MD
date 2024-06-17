@@ -18,10 +18,10 @@ the code repository structure is formed in such a way
 	
 	
 	
- https://www.vanessamckeown.com/
-	 
-   this project has been entirely built using the reference of this website 
-   code is not copied but I've used this website to form a basic webdesign in the mind to get the desired output at the end.
+https://www.vanessamckeown.com/
+
+this project has been entirely built using the reference of this website 
+code is not copied but I've used this website to form a basic webdesign in the mind to get the desired output at the end.
 
 
 
