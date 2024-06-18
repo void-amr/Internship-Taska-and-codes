@@ -10,6 +10,16 @@ https://www.vanessamckeown.com/
 this project has been entirely built using the reference of this website 
 code is not copied but I've used this website to form a basic webdesign in the mind to get the desired output at the end.
 
+Key Topics used 
+
+
+: Parallax - Parallax is a scrolling effect which makes user to stay ineracting  
+
+: box-shadow - adds shadow to the element using offset-x and offset-y 
+
+: hover effect - changes the color as we hover over the specific element
+
+
 
 the code repository structure is formed in such a way 
 
