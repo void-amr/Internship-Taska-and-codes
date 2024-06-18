@@ -10,7 +10,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html,body {
@@ -24,5 +23,24 @@ html,body {
 .main {
     width: 100%;
     height: 100%;
-    background-color: cornflowerblue;
+    background-color: rgb(38, 6, 48);
+}
+
+/*
+    logo    -id contains the logo 
+*/ 
+
+#logo-id {
+    width: 15em;
+    margin:3em;
+}
+
+/*
+    background-images
+*/ 
+
+#tomatoes-id {
+    margin-left: 34em;
+    margin-top: 5em;
+    width: 15em;
 }
