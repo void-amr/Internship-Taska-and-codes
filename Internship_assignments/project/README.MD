@@ -5,10 +5,8 @@
 We have used html to form the structure of the website and we have used 
 css to design the website 
 
-https://www.vanessamckeown.com/
-	 
-this project has been entirely built using the reference of this website 
-code is not copied but I've used this website to form a basic webdesign in the mind to get the desired output at the end.
+this project has been entirely built using the reference of the original amazon website 
+code is not copied but I've used the website to form a basic webdesign in the mind to get the desired output at the end.
 
 Key Topics used 
 
@@ -19,7 +17,9 @@ Key Topics used
 
 : hover effect - changes the color as we hover over the specific element
 
+: forms 
 
+: Html semantics 
 
 the code repository structure is formed in such a way 
 
