@@ -8,22 +8,24 @@
 	// strings
 	// string interpolation 
 	// undefined vs not-defined 
+	// conditionals
 	let var const
 	arrays
 	push pop unshift shift 
-	conditionals
 	loops
 	classes 
 	Objects
 	functions 
 	callbackfunctions
 	arrowfunctions
+	firstclassfunctions 
 	this 
 	Window object 
 	hoisting
  
  	Advanced 
 
+	export import 
 	modules
 	Storages
 	Async 
@@ -40,5 +42,3 @@
 	Methods 
 	Regex
 	Rest parameters 
-
-
