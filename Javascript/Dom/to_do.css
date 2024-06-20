@@ -1,0 +1,61 @@
+/**
+*   @Author -> AryanRanjane(ranjanearyan14@gmail.com)
+*   @Date -> 20/6/24
+*/
+
+/**
+*   Boiler-plate 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/**
+* Parent element
+*/
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+}
+
+/**
+*   Header 
+*/
+
+#header-1 {
+  font-size: 42px;
+  font-weight: bolder;
+  width: 100%;
+  background-color: brown;
+}
+
+input {
+  font-size: 2em;
+  align-items: center;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+#addbtn {       
+    border: none;
+    font-size: 1.6em;
+}
+
+.li {
+    margin-top: 2em;
+    height: 300px   ;
+    width: 500px;
+}
