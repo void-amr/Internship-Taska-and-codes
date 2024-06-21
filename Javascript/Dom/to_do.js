@@ -4,26 +4,36 @@
  * @Date -> 20/6/24 
  */
 
+/** Storing the document objects inside the variables */
+const INPUT = document.getElementById('input');
+const BUTTON = document.getElementById('add');
+const LISTS = document.getElementById('ordered_list');
 
 
-const HEADER = document.getElementById('header-1');
-const INPUT = document.getElementById('input-id');
-const BUTTON = document.getElementById('addbtn');
-const LIST_ITEMS = document.getElementById('un-list');
+BUTTON.addEventListener('click', function(){
+    const TEXT = INPUT.value;
 
-document.addEventListener("DOMContentLoaded",function(){
-    BUTTON.addEventListener("click",function(){
+    if(TEXT !== "") {
+        const LIST_ITEM = document.createElement('li');
+        LIST_ITEM.style.textAlign="center";
+        LIST_ITEM.textContent = TEXT;
+        LIST_ITEM.style.listStyle="none";
+        LIST_ITEM.style.backgroundColor="green"
 
-        const IP = LIST_ITEMS.value;
-        if(IP !== "") {
-            const LIST = document.createElement("li");
-            LIST.textContent = IP;
-            LIST_ITEMS.appendChild(LIST);
-            INPUT.value = "";
-            }
+        LIST_ITEM.style.marginTop="2em";
 
-    })
+        /***
+         * Adding the element
+         */
+
+        LISTS.append(LIST_ITEM);
+        INPUT.value="";
+        
+        LIST_ITEM.addEventListener('click',()=>{
+            /**Removing the element */
+            LIST_ITEM.style.textDecoration = 'line-through';
+            LIST_ITEM.style.backgroundColor ="red"
+        });
+    }
 });
-
-
 
