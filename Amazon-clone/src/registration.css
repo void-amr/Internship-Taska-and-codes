@@ -1,0 +1,149 @@
+/** 
+*   @Author -> AryanRanjane(ranjanearyan14@gmail.com)
+*   @Date -> 19/6/24
+*/
+
+/** 
+*   Boiler plate
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** 
+*   Body  
+*/ 
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+/** 
+*   Parent element
+*/ 
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/** 
+*   Heading 
+*/
+
+#ih {
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-left: 1.4em;
+}
+
+input {
+    border: none;
+    font-weight: bold;
+    padding: 3px;
+    width: 260px;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+/** 
+*  Name element 
+*/ 
+
+
+.name {
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: 2em;
+    font-size: 1.3em;
+}
+
+/** 
+*   Mobile number
+*/
+
+.number {
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+
+/** 
+*  Email
+*/ 
+.gmail {
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+
+/** 
+*   password
+*/
+
+.setpass {
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+
+/** 
+*   Parent of all the above elements
+*/ 
+.card {
+    border-radius: 23px;
+    margin-top: 4em;
+    padding: 4em;
+    height: 550px;
+    width:420px;
+    background-color: rgb(2, 3, 37);
+}
+
+/**
+*   Making the input box glow 
+*/
+
+input {
+    background-color:grey;
+}
+
+input:focus {
+ color: rgb(0, 0, 0);
+ outline: 2px solid rgb(71, 53, 9);  
+ box-shadow: 0px 5px 15px rgb(255, 191, 29);
+}
+
+input:hover {
+    box-shadow: 0px 4px 15px rgb(107, 104, 97);
+}
+
+/**
+*   Submit button 
+*/ 
+
+.btn {
+    border: none;
+    border-radius: 5px;  
+    font-weight: bolder;
+    margin-left: 6.6em;
+    margin-top: 2.3em;
+    padding:1.3em;
+    background-color: rgb(184, 156, 0);
+}
+
+.btn:hover {
+    box-shadow: 0px 3px 8px rgb(158, 134, 2);
+    background-color: rgb(255, 191, 29);
+}
