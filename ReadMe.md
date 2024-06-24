@@ -3,7 +3,6 @@
 
 # Tools used 
 
- nodejs https://nodejs.org/en/download/package-manager
  
  vim for vscode (inbuilt-extension) 
  
@@ -11,6 +10,4 @@
  
  git bash https://git-scm.com/downloads
 
- wsl for windows https://learn.microsoft.com/en-us/windows/wsl/install
- 
  github  
