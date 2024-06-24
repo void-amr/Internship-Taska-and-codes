@@ -34,15 +34,6 @@
         </div>
       </div>
 
-      <div class="selector">
-        <select name="all" id="all">
-          <option value="xyz" id="xyz">All</option>
-          <option value="electronics" id="xyz">Electronics</option>
-          <option value="home-appliances" id="xyz">Home-appliances</option>
-          <option value="clothings" id="xyz">Clothings</option>
-        </select>
-      </div>
-
       <div class="searchbar">
         <input type="search" id="search" placeholder="Search Amazon" />
       </div>
@@ -55,7 +46,7 @@
 
       <div class="signin">
         <p class="sign-p">
-          <a href=""> Sign in </a>
+          <a href="/Amazon-clone/src/login.html">Sign in </a>
         </p>
       </div>
 
@@ -71,14 +62,39 @@
             <button id="btn-cart">
               <i class="fa-solid fa-cart-shopping"></i>
             </button>
+            
+            <div class="items">
+              <div class="card-hover">
+                <div class="item-1">
+                  <p></p>
+                </div>
+              </div>  
+            </div>
+
           </div>
         </form>
       </div>
     </div>
   </header>
   <body>
-    <div class="main">
+    
+    <div class="main">  
       <div class="heading-image">
+        <div class="what-to-buy">
+          
+          <div class="item-1">
+            <form action="./page_1.html">
+            <button id="Electronics" >Electronics</button>
+            </form>
+          </div>
+          
+          <div class="item-2">
+            <form action="./page_2.html">
+            <button id="toys">Toys</button>
+            </form>
+          </div>
+
+        </div>
         <div class="card-1"></div>
         <div class="card-2"></div>
         <div class="card-3"></div>

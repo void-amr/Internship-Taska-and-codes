@@ -1,0 +1,69 @@
+/***
+*   @Author -> AryanRanjane(ranjanearyan14@gmail.com)
+*   @Date -> 24/6/24
+*/
+
+/**
+*   Boiler plate 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/**
+*   Heading 
+*/
+
+.heading-section {
+    display: flex;
+    justify-content: center;
+}
+
+#heads {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/**
+*   Cards 
+*/
+
+.card-1 {
+    position: relative;
+    margin-left: 2.5em;
+    margin-top: 12em;
+    background-size:auto;
+    width: 350px;
+    height: 400px;
+    background-image: url(./resources/71yhKbI28hL._AC_UL480_FMwebp_QL65_.webp);
+}
+
+.readme-1 {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+
+.card-2 {
+    position: relative;
+    margin-left: 2.5em;
+    margin-top: 12em;
+    background-size:cover;
+    width: 400px;
+    height: 400px;
+    background-image: url(./resources/71gCUFuulfL._AC_UY327_FMwebp_QL65_.webp);
+}
+.readme-2 {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
