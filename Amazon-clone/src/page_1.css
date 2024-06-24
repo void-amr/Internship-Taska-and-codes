@@ -19,6 +19,12 @@ html, body {
     height: 100%;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(18, 15, 15);
+}
+
 /**
 *   Heading 
 */
@@ -31,39 +37,78 @@ html, body {
 #heads {
     font-weight: bold;
     font-size: 3em;
+    color: white;
 }
 
 /**
 *   Cards 
 */
 
-.card-1 {
-    position: relative;
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-row1 {
     margin-left: 2.5em;
-    margin-top: 12em;
+    margin-top: 10em;
     background-size:auto;
     width: 350px;
     height: 400px;
     background-image: url(./resources/71yhKbI28hL._AC_UL480_FMwebp_QL65_.webp);
+    transition: 1s ease;
+}   
+
+
+
+#BUY-1 {
+    padding: 1em;
+    margin-left: 2em;
+    background-color: tomato;
 }
 
-.readme-1 {
-    position: absolute;
-    top: 90%;
-    left: 80%;
+#BUY-1:hover {
+    background-color: rgb(95, 64, 59);
 }
 
-.card-2 {
+.card-row1:hover {
+    transition: 3s ease;
+    box-shadow: 0px 15px 35px rgb(26, 48, 85);
+    filter: blur(3px);
+}
+
+
+.card-row2 {
+    transition: 2s ease;
     position: relative;
-    margin-left: 2.5em;
-    margin-top: 12em;
+    margin-left: 3em;
+    margin-top: 10em;
     background-size:cover;
     width: 400px;
     height: 400px;
     background-image: url(./resources/71gCUFuulfL._AC_UY327_FMwebp_QL65_.webp);
 }
+
+
 .readme-2 {
     position: absolute;
     top: 90%;
     left: 80%;
+}
+
+#BUY-2 {
+    padding: 1em;
+    margin-left: 2em;
+    background-color: tomato;
+}
+
+#BUY-2:hover {
+    background-color: rgb(95, 64, 59);
+}
+
+.card-row2:hover {
+    transition: 3s ease;
+    box-shadow: 0px 5px 25px rgb(89, 81, 81);
+    filter: blur(3px);
 }
