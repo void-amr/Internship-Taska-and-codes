@@ -10,7 +10,6 @@
 const BUY_BUTTON1 = document.getElementById('BUY-1');
 const BUY_BUTTON2 = document.getElementById('BUY-2');
 const CARD_2 = document.getElementsByClassName('card-row2');
-
 /** 
  * Checking if the Html file is parsed before the js code 
  * as we have passed the parsing type as async the js code is parsed simultaneously with html file
@@ -25,10 +24,14 @@ if (document.readyState == "loading") {
     ready_callback();
 }
 
-function ready_callback() {
-    BUY_BUTTON1.addEventListener("click", function (event) {
+function ready_callback() {    
+    BUY_BUTTON1.addEventListener("click", function () {
         locationLink();
         addItemsToCart();
+    });
+
+    BUY_BUTTON2.addEventListener("click",function() {
+        locationLink();
     });
 }
 
